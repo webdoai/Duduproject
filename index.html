@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DUDU FOOD | Fast Food in Ramnagar Colony, Chittoor</title>
+<meta name="description" content="DUDU FOOD is a fast-food destination in Ramnagar Colony, Chittoor. Fried rice, Gobi, Hakka Manchurian and more. Build your order and send it on WhatsApp.">
+<meta name="theme-color" content="#151515">
+<meta property="og:type" content="restaurant.restaurant">
+<meta property="og:title" content="DUDU FOOD | Cravings? We've got you!">
+<meta property="og:description" content="Delicious food. Bold flavours. Unforgettable bites. Ramnagar Colony, Chittoor.">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500;700&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500;700&display=swap"></noscript>
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.classList.add('js')</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Restaurant","name":"DUDU FOOD","servesCuisine":["Indian","Indo-Chinese","Fast Food"],"address":{"@type":"PostalAddress","streetAddress":"Ramnagar Colony","addressLocality":"Chittoor","addressRegion":"Andhra Pradesh","addressCountry":"IN"}}
+</script>
+</head>
+<body>
+<a class="skip" href="#menu">Skip to menu</a>
+
+<header class="site-header" id="top">
+  <div class="wrap bar">
+    <a class="brand" href="#home" aria-label="DUDU FOOD, back to top"><img src="assets/logo/logo.svg" alt="DUDU FOOD" width="150" height="44"></a>
+    <nav class="nav" id="primary-nav" aria-label="Primary">
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#menu">Our Menu</a>
+      <a href="#why">Why Choose Us</a>
+      <a href="#contact">Contact</a>
+      <button class="btn btn-primary nav-order" type="button" data-order>ORDER NOW</button>
+    </nav>
+    <div class="actions">
+      <button class="cart-btn" id="open-cart" type="button" aria-label="Open your order">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6h15l-1.5 9h-12z"/><path d="M6 6 5 3H2"/><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/></svg>
+        <span class="badge" id="cart-count" hidden>0</span>
+      </button>
+      <button class="btn btn-primary btn-sm header-order" type="button" data-order>ORDER NOW</button>
+      <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home" aria-labelledby="hero-title">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">Ramnagar Colony, Chittoor</p>
+      <h1 id="hero-title">CRAVINGS?<br><span class="accent">WE'VE GOT YOU!</span></h1>
+      <p class="lead">Delicious food. Bold flavours. Unforgettable bites.</p>
+      <p class="hero-text">DUDU FOOD is a fast-food destination for fried rice, Gobi, Hakka Manchurian and other delicious varieties.</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="#menu">EXPLORE OUR MENU</a>
+        <button class="btn btn-ghost" type="button" data-order>ORDER NOW</button>
+      </div>
+    </div>
+    <div class="hero-visual" id="hero-visual" aria-hidden="false"></div>
+  </div>
+</section>
+
+<section class="menu" id="menu" aria-labelledby="menu-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="menu-title">OUR TASTY MENU</h2>
+      <p>Discover your favourites and enjoy every bite.</p>
+    </div>
+    <div class="toolbar">
+      <div class="filters" role="group" aria-label="Filter dishes">
+        <button class="filter" type="button" data-filter="all" aria-pressed="true">All</button>
+        <button class="filter" type="button" data-filter="veg" aria-pressed="false">Vegetarian</button>
+        <button class="filter" type="button" data-filter="nonveg" aria-pressed="false">Non-Vegetarian</button>
+      </div>
+      <div class="search">
+        <label class="sr-only" for="menu-search">Search dishes</label>
+        <input id="menu-search" type="search" placeholder="Search dishes" autocomplete="off">
+      </div>
+    </div>
+    <div class="grid" id="menu-grid" aria-live="polite"></div>
+    <p class="empty" id="menu-empty" hidden>No dishes match your search. Clear the search or choose All.</p>
+    <noscript><p class="empty">The menu and ordering need JavaScript. Please enable it to view dishes.</p></noscript>
+  </div>
+</section>
+
+<section class="showcase" aria-labelledby="showcase-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="showcase-title">MADE TO SATISFY YOUR CRAVINGS.</h2>
+      <p>Fried rice, Gobi and Manchurian varieties, ready when you are.</p>
+    </div>
+    <div class="sc-grid" id="showcase-grid"></div>
+  </div>
+</section>
+
+<section class="about" id="about" aria-labelledby="about-title">
+  <div class="wrap about-grid">
+    <div class="reveal">
+      <p class="eyebrow">About DUDU FOOD</p>
+      <h2 id="about-title">GOOD FOOD. GREAT MOOD.</h2>
+      <p>DUDU FOOD is a local fast-food destination in Ramnagar Colony, Chittoor. We serve popular Indian and Indo-Chinese street-style favourites, from fried rice to Gobi and Hakka Manchurian.</p>
+      <p>Come in for a quick bite or send your order ahead on WhatsApp. Either way, we want every visit to feel easy and friendly.</p>
+    </div>
+    <ul class="highlights reveal">
+      <li><strong>Delicious fast-food varieties</strong><span>Rice, Gobi, Manchurian and more.</span></li>
+      <li><strong>A welcoming food experience</strong><span>Friendly, relaxed and made for sharing.</span></li>
+      <li><strong>Popular food choices</strong><span>Vegetarian and non-vegetarian options.</span></li>
+      <li><strong>Convenient ordering</strong><span>Pick your dishes and send them on WhatsApp.</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="why" id="why" aria-labelledby="why-title">
+  <div class="wrap">
+    <div class="sec-head"><h2 id="why-title">WHY CHOOSE US?</h2></div>
+    <div class="why-grid">
+      <article class="why-card reveal"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11h16a8 8 0 0 1-16 0z"/><path d="M8 7c0-2 2-2 2-4M13 7c0-2 2-2 2-4"/></svg><h3>Delicious Variety</h3><p>Rice, Gobi, Manchurian and more to pick from.</p></article>
+      <article class="why-card reveal"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3c1 4 5 5 5 10a5 5 0 0 1-10 0c0-2 1-3 2-4 0 2 1 3 2 3 0-4-1-6 1-9z"/></svg><h3>Bold Flavours</h3><p>Street-style tastes that keep you coming back.</p></article>
+      <article class="why-card reveal"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><path d="M9 9.5h.01M15 9.5h.01"/></svg><h3>Customer-Friendly Experience</h3><p>A welcoming place for a quick bite with friends and family.</p></article>
+      <article class="why-card reveal"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg><h3>Convenient Ordering</h3><p>Build your order here and send it on WhatsApp.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="gallery" id="gallery" aria-labelledby="gallery-title">
+  <div class="wrap">
+    <div class="sec-head"><h2 id="gallery-title">FOOD GALLERY</h2><p>Tap a photo to see it larger.</p></div>
+    <div class="g-grid" id="gallery-grid"></div>
+  </div>
+</section>
+
+<section class="contact" id="contact" aria-labelledby="contact-title">
+  <div class="wrap">
+    <div class="sec-head"><h2 id="contact-title">COME FIND US!</h2></div>
+    <div class="c-grid">
+      <div class="c-card"><h3>Location</h3><p>Ramnagar Colony,<br>Chittoor</p><a class="btn btn-ghost btn-sm" id="directions" href="#" target="_blank" rel="noopener">Get directions</a></div>
+      <div class="c-card"><h3>Phone</h3><p data-fill="phone"></p><button class="btn btn-primary btn-sm" type="button" id="wa-contact">Order on WhatsApp</button></div>
+      <div class="c-card"><h3>Business hours</h3><div data-fill="hours"></div></div>
+      <div class="c-card"><h3>Follow us</h3><div data-fill="social"></div></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="wrap f-grid">
+    <div><img src="assets/logo/logo.svg" alt="DUDU FOOD" width="150" height="44" loading="lazy"><p>Fast food in Ramnagar Colony, Chittoor. Cravings? We've got you!</p></div>
+    <nav aria-label="Footer"><h3>Explore</h3><a href="#home">Home</a><a href="#about">About Us</a><a href="#menu">Our Menu</a><a href="#why">Why Choose Us</a><a href="#contact">Contact</a></nav>
+    <nav aria-label="Menu links"><h3>Menu</h3><a href="#menu" data-jump="all">All dishes</a><a href="#menu" data-jump="veg">Vegetarian</a><a href="#menu" data-jump="nonveg">Non-Vegetarian</a></nav>
+    <div><h3>Contact</h3><p>Ramnagar Colony, Chittoor</p><p data-fill="phone"></p><div data-fill="social"></div></div>
+  </div>
+  <p class="copy wrap">&copy; <span id="year">2026</span> DUDU FOOD. All rights reserved.</p>
+</footer>
+
+<div class="overlay" id="overlay" hidden></div>
+<aside class="drawer" id="cart" role="dialog" aria-modal="true" aria-labelledby="cart-title" aria-hidden="true">
+  <div class="d-head"><h2 id="cart-title">Your order</h2><button class="icon-btn" type="button" id="close-cart" aria-label="Close order">&times;</button></div>
+  <div class="d-body">
+    <div id="cart-view">
+      <p class="empty" id="cart-empty">Your order is empty. Add a dish from the menu to start.</p>
+      <ul class="lines" id="cart-lines"></ul>
+    </div>
+    <form id="checkout-view" hidden novalidate>
+      <p class="muted">Enter your details. We'll open WhatsApp with your order ready to send.</p>
+      <label for="c-name">Your name</label>
+      <input id="c-name" name="name" type="text" autocomplete="name" maxlength="60" required>
+      <p class="err" id="e-name" role="alert"></p>
+      <label for="c-phone">Your phone number</label>
+      <input id="c-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="10-digit mobile number" required>
+      <p class="err" id="e-phone" role="alert"></p>
+      <label for="c-note">Note for the restaurant (optional)</label>
+      <input id="c-note" name="note" type="text" maxlength="140">
+      <p class="err" id="e-form" role="alert"></p>
+      <button class="btn btn-primary" type="submit">Send order on WhatsApp</button>
+      <button class="btn btn-dark" type="button" id="back-cart">Back to order</button>
+    </form>
+  </div>
+  <div class="d-foot" id="cart-foot" hidden>
+    <dl class="totals"><div><dt>Subtotal</dt><dd id="subtotal">-</dd></div><div class="grand"><dt>Total</dt><dd id="total">-</dd></div></dl>
+    <p class="muted" id="tba-note" hidden>Some dishes have no price yet. The restaurant will confirm the final total.</p>
+    <p class="muted">Your order is not confirmed until DUDU FOOD confirms it. Payment is made to the restaurant directly.</p>
+    <div class="foot-btns">
+      <button class="btn btn-dark" type="button" id="continue">Continue shopping</button>
+      <button class="btn btn-primary" type="button" id="proceed">Proceed to order</button>
+    </div>
+    <button class="link-btn" type="button" id="clear-cart">Clear order</button>
+  </div>
+</aside>
+
+<dialog class="lightbox" id="lightbox" aria-label="Photo viewer"><button class="icon-btn lb-close" type="button" id="lb-close" aria-label="Close photo">&times;</button><figure id="lb-fig"></figure></dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="js/config.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
